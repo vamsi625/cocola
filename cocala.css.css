@@ -1,0 +1,129 @@
+*{
+    box-sizing:border-box;
+    margin:0%;
+   /*border:1px solid black;*/
+}
+.navbar-brand{
+    width:20%;
+    padding-left:5%;
+}
+.navbar-brand{
+    background-color:white
+}
+.nav-link{
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+}
+.nav-link:hover{
+    border:1px solid black;
+    color:blue;
+}
+.fav-bars{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+.carousel-slide{
+    position:fixed;
+    bottom:250px;
+    height: 50vh;
+    width:50vw;
+
+}
+
+.logo-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo {
+    width: 80px;
+   
+}
+
+.logo-caption {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #e30613;
+    font-weight: bold;
+}
+
+.product-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+}
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+.nutritional-info {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.nutritional-info h5 {
+    margin-bottom: 15px;
+}
+.video-container {
+    background-color: #000; /* Black background around the video */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for a sleek look */
+    overflow: hidden; /* Prevents overflow of content */
+  }
+
+  .container {
+    margin-top: 30px;
+    padding-top:30px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    color: #343a40; /* Dark color for text */
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .ratio {
+    border-radius: 8px; /* Rounded corners on video */
+  }
+
+.buy-now-link {
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+
+}
+.buy-now-link:hover{
+    text-decoration:underline;
+}
+.heightset{
+    height:270px ;
+}
+.footer{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    padding:20px,0;
+}
+.footer-icons{
+    color: #fff;
+    font-size:20px;
+    padding: 10px,0;
+    text-decoration:none;
+}
+.footer-icons a.hover{
+    color:#0000ff;
+}
+.footer-note {
+    color: #f4f4f4;
+    text-align:center;
+    font-size:14px;
+    padding:0,10px;
+}
